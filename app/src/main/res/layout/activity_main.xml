@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#704BB8C6">
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:indeterminate="false"
+        android:max="60"
+        android:progress="60"
+        android:progressBackgroundTint="#FBE7C6"
+        android:progressTint="#edbf41" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ask1"
+            android:layout_width="120dp"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/medium_cooked" />
+
+                <TextView
+                    android:id="@+id/ask1medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="X 0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/well_done_cooked" />
+
+                <TextView
+                    android:id="@+id/ask1well"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="X 0" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/customer1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/neutral"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ask2"
+            android:layout_width="120dp"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            android:layout_marginRight="15dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/medium_cooked" />
+
+                <TextView
+                    android:id="@+id/ask2medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="X 0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/well_done_cooked" />
+
+                <TextView
+                    android:id="@+id/ask2well"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="X 0" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/customer2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/neutral" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ask3"
+            android:layout_width="120dp"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/medium_cooked" />
+
+                <TextView
+                    android:id="@+id/ask3medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="X 0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/well_done_cooked" />
+
+                <TextView
+                    android:id="@+id/ask3well"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="X 0" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/customer3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/neutral" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/customer1"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_marginRight="30dp"-->
+<!--            android:src="@drawable/neutral" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/customer2"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_marginRight="30dp"-->
+<!--            android:src="@drawable/neutral" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/customer3"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:src="@drawable/neutral" />-->
+<!--    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/mold"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/mold1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/mold" />
+
+            <ImageView
+                android:id="@+id/mold2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/mold" />
+
+            <ImageView
+                android:id="@+id/mold3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/mold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/mold4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/mold" />
+
+            <ImageView
+                android:id="@+id/mold5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/mold" />
+
+            <ImageView
+                android:id="@+id/mold6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/mold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/mold7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/mold" />
+
+            <ImageView
+                android:id="@+id/mold8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/mold" />
+
+            <ImageView
+                android:id="@+id/mold9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/mold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/medium_cooked" />
+
+        <TextView
+            android:id="@+id/mediumCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="X 0" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/well_done_cooked" />
+
+        <TextView
+            android:id="@+id/wellCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="X 0" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/pump"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_gravity="right"
+        android:src="@drawable/pick_chou_cream"
+        android:layout_marginTop="-50dp"
+        />
+    <TextView
+        android:id="@+id/moneyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₩ 0"
+        android:textSize="15sp"/>
+
+
+
+
+</LinearLayout>
